@@ -1,0 +1,26 @@
+GitHub
+
+# 1. Navigate to your project folder
+cd "C:\Users\wajdr\OneDrive\Desktop\Tuwaiq-DS_ML\Week3\Day14"
+
+# 2. Initialize Git (only if not done before)
+git init
+
+# 3. Add all files to Git
+git add .
+
+# 4. Commit the files
+git commit -m "Upload Day 14 files"
+
+# 5. Link the local repository to the GitHub repository
+git remote add origin https://github.com/WajdAlrabiah/Tuwaiq-DS-ML-W03-D14.git
+
+# 6. Rename the main branch to 'main'
+git branch -M main
+
+# 7. Push the files to GitHub
+git push -u origin main
+
+# 8. If you get an error saying the repository is not empty, use:
+# git pull origin main --allow-unrelated-histories
+# git push -u origin main
